@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+    /* Top navbar border */
+.top-navbar {
+  border-bottom: 1px solid #ddd;
+  }
+  .navbar{
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    z-index:1000;
+  }
+  .navbar .navbar-brand{
+    font-size: 30px;
+  }
+  nav .nav-link {
+    color: black; 
+    font-weight: bold;
+    cursor: pointer;
+  }
+  nav .nav-link:hover {
+    color: #f542b9;
+  }
+
+    /* Hero section */
+.hero{
+    width:100% !important;
+    height:80vh !important;
+    margin:0px !important;
+}
+.span{
+    color:#f542b9;
+    font-weight:bold;}
+.image{
+    background-image: url("assets/become-2.png");
+    background-size: cover;
+    width:100%;
+    background-position: center;
+}
+.img-fluid{
+    width:80%;
+    height:90%;
+    padding-left:200px;
+}
+    .start-btn {
+      background-color: #3f51b5;
+      color: #fff;
+      border-radius: 6px;
+      padding: 10px 20px;
+      border: none;
+    }
+
+    .start-btn:hover {
+      background-color: #303f9f;
+    }
+
+    /* section -2 */
+    .cards{
+      object-fit: cover;
+    }
+  .cards .card{
+    border:1px solid black;
+    background-color:lightgray;
+    border-radius:10px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+
+  }
+  .card-heading{
+    color:#f542b9;
+    font-weight:bold;
+  }
+  .card-para{
+    color:black;
+    font-weight:bold;
+  }
+/*experience card*/
+  .card{
+    transition: transform 0.3s;
+    flex-wrap:wrap;
+    border-radius: 20px;
+
+}
+.card:hover{
+    transform:scale(1.05);
+}
+
+/* work */
+.step-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #e91e63;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-weight: bold;
+}
+/* footer */
+.support-section{
+  background-color: lightgray;
+}

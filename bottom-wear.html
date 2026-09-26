@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Saree Listing</title>
+  <link rel="stylesheet" href="womens_ethnic.css">
+<script src="script.js"></script>
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+<!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!--navbar-->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-white border-bottom">
+      <div class="container-fluid px-3">
+        <!-- Image Logo -->
+         <a class="navbar-brand" href="#"><img src="assets/meeshoLogo.svg" alt="Logo" height="50" ></a>
+         <!-- Search Bar -->
+      <form class="d-flex flex-grow-1 mx-4">
+        <input class="form-control" type="search" placeholder="Search for products..." />
+      </form>
+      <!-- Right Side -->
+      <div class="d-flex align-items-center gap-4">
+        <a href="become.html" class="text-decoration-none text-dark right-side-navbar">Become a Supplier</a>
+        <a href="investor.html" class="text-decoration-none text-dark right-side-navbar">Investor Relations</a>
+        <!-- Profile -->
+        <a href="profiel.html" class="text-black right-side-navbar">
+        <div class="text-center right-side-navbar">
+          <i class="bi bi-person fs-5"></i>
+          <div style="font-size:12px;">Profile</div>
+        </div></a>
+        <!-- Cart -->
+        <div class="text-center position-relative m-1">
+          <i class="bi bi-cart fs-5"></i>
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" id = "cart-count">0</span>
+          <div style="font-size:12px;">Cart</div>
+        </div>
+      </div>
+
+  </div>
+    </nav>
+  <div class="menu-1 shadow p-3 d-flex justify-content-between align-items-center">
+    <div class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Women's Ethnics
+      </a>
+        <ul class="dropdown-menu"> 
+          <li><a class="dropdown-item text-black" href="all_sarees.html">Sarees</a></li> 
+          <li><a class="dropdown-item text-black" href="all_kurtha.html">Tops</a></li> 
+          <li><a class="dropdown-item text-black" href="material_set.html">Material_sets</a></li> 
+          <li><a class="dropdown-item text-black" href="nightwear.html">nightwears</a></li>
+          <li><a class="dropdown-item text-black" href="lehangas.html">Lehangas</a></li>
+          <li><a class="dropdown-item text-black" href="lehangas.html"></a></li>
+        </ul> 
+      </li>
+    </div>
+    <div class="nav-item dropdown">
+      <div class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Womens Western
+      </a>
+      <ul class="dropdown-menu"> 
+        <li><a class="dropdown-item text-black" href="Western-type-1.html">Top Wear</a></li> 
+        <li><a class="dropdown-item text-black" href="Western-type-2.html">Bottom Wear</a></li> 
+        <li><a class="dropdown-item text-black" href="Western-type-3.html">Winter Wears</a></li> 
+      </ul> 
+
+    </div>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item p-4" href="#"></a></li>
+    </div>
+    </li>
+    <div class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Men
+      </a>
+      <ul class="dropdown-menu"> 
+          <li><a class="dropdown-item text-black" href="top-wear.html">Top Wears</a></li> 
+          <li><a class="dropdown-item text-black" href="bottom-wear.html">Bottom Wears</a></li> 
+          <li><a class="dropdown-item text-black" href="ethnic.html">Ethnic Wears</a></li> 
+          <li><a class="dropdown-item text-black" href="nightwear-boys.html">nightwears</a></li>
+          <li><a class="dropdown-item text-black" href="combo-store.html">Combo store</a></li>
+
+          <li><a class="dropdown-item text-black" href="lehangas.html"></a></li>
+        </ul> 
+      
+    </div>
+    <div class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Kids
+      </a>
+      <ul class="dropdown-menu"> 
+          <li><a class="dropdown-item text-black" href="girls.html">Girls</a></li> 
+          <li><a class="dropdown-item text-black" href="boys.html">Boys</a></li> 
+          <li><a class="dropdown-item text-black" href="babies.html">Babies Wears</a></li> 
+          <li><a class="dropdown-item text-black" href="boys.html">Clothing sets</a></li>
+          <li><a class="dropdown-item text-black" href="frocks.html">Frocks and Dress</a></li>
+          <li><a class="dropdown-item text-black" href="t-shirts.html">T-shirt And Poles</a></li>
+
+
+          <li><a class="dropdown-item text-black" href="lehangas.html"></a></li>
+        </ul>
+      
+    </div>
+    <div class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Home & Kitchen
+      </a>
+      <ul class="dropdown-menu"> 
+          <li><a class="dropdown-item text-black" href="home-decor.html">Home Decor</a></li> 
+          <li><a class="dropdown-item text-black" href="kitchen.html">Kitchen & Apliances</a></li> 
+          <li><a class="dropdown-item text-black" href="home-texilies.html">Home Textilies</a></li> 
+          <li><a class="dropdown-item text-black" href="home-improvement.html">Home Improvement</a></li>
+          <li><a class="dropdown-item text-black" href="furniture.html">Furniture</a></li>
+      
+        </ul>
+      
+    </div>
+    <div class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Beauty & Health
+      </a>
+      <ul class="dropdown-menu"> 
+          <li><a class="dropdown-item text-black" href="mackup.html">MakeUp</a></li> 
+          <li><a class="dropdown-item text-black" href="personal.html">Personal Care</a></li> 
+          <li><a class="dropdown-item text-black" href="healthcare.html">HealthCare</a></li> 
+          <li><a class="dropdown-item text-black" href="baby&mom.html">Baby&Mom</a></li>
+          <li><a class="dropdown-item text-black" href="menscare.html">Menscare</a></li>
+      </ul>
+    </div>
+    <div class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Jewellery & Accessories
+      </a>
+      <ul class="dropdown-menu"> 
+          <li><a class="dropdown-item text-black" href="jew-1.html">Jewllary</a></li> 
+          <li><a class="dropdown-item text-black" href="jew-2.html">Men Accessories</a></li> 
+          <li><a class="dropdown-item text-black" href="jew-3.html">Women Accessories</a></li> 
+      </ul>
+      
+    </div>
+    <div class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Bags & Footwear
+      </a>
+      <ul class="dropdown-menu"> 
+          <li><a class="dropdown-item text-black" href="women-foot.html">Women's Footwear</a></li> 
+          <li><a class="dropdown-item text-black" href="men-foot.html">Men FootWear</a></li> 
+          <li><a class="dropdown-item text-black" href="kid-foot.html">Kids FootWear</a></li> 
+          <li><a class="dropdown-item text-black" href="women-bag.html">Womens Bags</a></li> 
+          <li><a class="dropdown-item text-black" href="men-bag.html">Mens Bags</a></li> 
+          
+          <li><a class="dropdown-item text-black" href="travel.html">Travel& laguage Bags</a></li> 
+
+
+
+      </ul>
+      
+    </div>
+    <div class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Electronics
+      </a>
+      <ul class="dropdown-menu"> 
+          <li><a class="dropdown-item text-black" href="audio.html">Audio Mobile</a></li>
+          <li><a class="dropdown-item text-black" href="acess.html">Accessories</a></li> 
+
+
+
+      </ul>
+    </div>
+  </div>
+
+    
+</div>
+  </header>
+<br><br><br><br><br><br><br>
+<div class="m-3">
+  <h3>Mens Jeans in Classic Fits</h3>
+  <h6>Showing 1-20 out of 10000 products</h6>
+  <p class="text-muted">Upgrade Your Wardrobe With Versatile Jeans Men Styles<br>Jeans men wear daily need to be both stylish and functional—and Meesho offers a range that delivers on both fronts. From classic slim fits to relaxed cuts, find denim that suits your personality, comfort, and routine. Whether you're styling a tee or layering with jackets, there's a pair ready for the look.<br>Enjoy the benefits of free delivery, easy returns, and cash on delivery, all while finding wardrobe staples that last.</p>
+
+</div>
+<!--first-row-->
+<div class="container">
+  <div class="row g-3">
+    <!--card-1-->
+    <div class="col-md-3 col-lg-3 col-6">
+      <div class="card shadow p-0">
+          <img src="assets/bottom-wear_!.avif" class="product-img" alt="Banita Drishya Saree">
+        <div class="card-boby p-3">
+          <h6 class="card-title">JEIRI Trousers</h6>
+          <p class="card-text mb-1 text-muted"><h4>₹353</h4><del class="ms-2">₹385</del> <span class="text-success">8% off</span></p>
+          <p class="mb-1 text-success">Free Delivery</p>
+          <p class="text-muted small">⭐ 3.9 (16086 Reviews)</p>
+          <button type="submit" class="btn btn-success w-100" onclick="addToCart()">Add Cart</button>
+        </div>
+      </div>
+    </div>
+    <!--card-2-->
+    <div class="col-md-3 col-lg-3 col-6">
+      <div class="card shadow p-0">
+        <img src="assets/bottom-wear_2.avif" class="product-img" alt="Banita Drishya Saree">
+        <div class="card-boby p-3">
+          <h6 class="card-title">Men Jogger Jeans</h6>
+          <p class="card-text mb-1 text-muted"><h4>₹367</h4><del class="ms-2">₹410</del> <span class="text-success">10% off</span></p>
+          <p class="mb-1 text-success">Free Delivery</p>
+          <p class="text-muted small">⭐ 4.0 (16086 Reviews)</p>
+          <button type="submit" class="btn btn-success w-100" onclick="addToCart()">Add Cart</button>
+        </div>
+      </div>
+    </div>
+    <!--card-3-->
+    <div class="col-md-3 col-lg-3 col-6">
+      <div class="card shadow p-0">
+        <img src="assets/bottom-wear_3.avif" class="product-img" alt="Banita Drishya Saree">
+        <div class="card-boby p-3">
+          <h6 class="card-title">Men Slim jeans</h6>
+          <p class="card-text mb-1 text-muted"><h4>₹437</h4><del class="ms-2">₹485</del> <span class="text-success">10% off</span></p>
+          <p class="mb-1 text-success">Free Delivery</p>
+          <p class="text-muted small">⭐ 4.0 (16086 Reviews)</p>
+          <button type="submit" class="btn btn-success w-100" onclick="addToCart('Nacklace',115)">Add Cart</button>
+        </div>
+      </div>
+    </div>
+    <!--card-4-->
+    <div class="col-md-3 col-lg-3 col-6">
+      <div class="card shadow p-0">
+        <img src="assets/bottom-wear_4.avif" class="product-img" alt="Banita Drishya Saree">
+        <div class="card-boby p-3">
+          <h6 class="card-title">Koetler Men's Jeans</h6>
+          <p class="card-text mb-1 text-muted"><h4>₹281</h4><del class="ms-2">₹321</del> <span class="text-success">12% off</span></p>
+          <p class="mb-1 text-success">Free Delivery</p>
+          <p class="text-muted small">⭐ 4.0 (16086 Reviews)</p>
+          <button type="submit" class="btn btn-success w-100" onclick="addToCart('Nacklace',115)">Add Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--second row-->
+<div class="container mt-4">
+  <div class="row g-3">
+    <!--card-5-->
+    <div class="col-md-3 col-lg-3 col-6">
+      <div class="card shadow p-0">
+          <img src="assets/bottom-wear_5.avif" class="product-img" alt="Banita Drishya Saree">
+          <div class="card-boby p-3">
+            <h6 class="card-title">Stitch Factory Fancy Latest Mens Jeans</h6>
+          <p class="card-text mb-1 text-muted"><h4>₹280</h4><del class="ms-2">₹316</del> <span class="text-success">6% off</span></p>
+          <p class="mb-1 text-success">Free Delivery</p>
+          <p class="text-muted small">⭐ 4.1 (16086 Reviews)</p>
+          <button type="submit" class="btn btn-success w-100" onclick="addToCart('Twinkling Elegant Bracelet & Bangles',118)">Add Cart</button>
+        </div>
+
+      </div>
+
+    </div>
+    <!--card-6-->
+    <div class="col-md-3 col-lg-3 col-6">
+      <div class="card shadow p-0">
+        <img src="assets/bottom-wear_6.avif" class="product-img" alt="Banita Drishya Saree">
+        <div class="card-boby p-3">
+          <h6 class="card-title">Men Baggy Jeans</h6>
+          <p class="card-text mb-1 text-muted"><h4>₹678</h4><del class="ms-2">₹732</del> <span class="text-success">8% off</span></p>
+          <p class="mb-1 text-success">Free Delivery</p>
+          <p class="text-muted small">⭐ 3.9 (16086 Reviews)</p>
+          <button type="submit" class="btn btn-success w-100" onclick="addToCart('Nacklace',115)">Add Cart</button>
+        </div>
+      </div>
+    </div>
+    <!--card-7-->
+    <div class="col-md-3 col-lg-3 col-6">
+      <div class="card shadow p-0">
+        <img src="assets/bottom-wear_7.avif" class="product-img" alt="Banita Drishya Saree">
+        <div class="card-boby p-3">
+          <h6 class="card-title">Designer Modern Cotton Men's Trosers</h6>
+          <p class="card-text mb-1 text-muted"><h4>₹658</h4><del class="ms-2">₹719</del> <span class="text-success">6% off</span></p>
+          <p class="mb-1 text-success">Free Delivery</p>
+          <p class="text-muted small">⭐ 4.0 (16086 Reviews)</p>
+          <button type="submit" class="btn btn-success w-100" onclick="addToCart('Nacklace',115)">Add Cart</button>
+
+        </div>
+      </div>
+    </div>
+    <!--card-8-->
+    <div class="col-md-3 col-lg-3 col-6">
+      <div class="card shadow p-0">
+        <img src="assets/bottom-wear_8.avif" class="product-img" alt="Banita Drishya Saree">
+        <div class="card-boby p-3">
+          <h6 class="card-title">Fancy Trendy Men Tracks Pants</h6>
+          <p class="card-text mb-1 text-muted"><h4>₹255</h4><del class="ms-2">₹280</del> <span class="text-success">9% off</span></p>
+          <p class="mb-1 text-success">Free Delivery</p>
+          <p class="text-muted small">⭐ 3.9 (16086 Reviews)</p>
+          <button type="submit" class="btn btn-success w-100" onclick="addToCart('Nacklace',115)">Add Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="bg-light pt-5 pb-4 mt-2">
+  <div class="container">
+    <div class="row">
+
+      <!-- Column 1 -->
+      <div class="col-md-3 mb-4">
+        <h5 class="fw-bold">Shop Non-Stop on Meesho</h5>
+        <p class="text-muted">
+          Trusted by crores of Indians<br>
+          Cash on Delivery | Free Delivery
+        </p>
+        <img src="assets/google-pay-logo.webp"
+             width="120" class="mb-2">
+        <br>
+        <img src="assets/app-store-logo.webp"
+             width="120">
+      </div>
+
+      <!-- Column 2 -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">Careers</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-decoration-none text-muted">Become a Supplier</a></li>
+          <li><a href="#" class="text-decoration-none text-muted">Hall of Fame</a></li>
+          <li><a href="#" class="text-decoration-none text-muted">Sitemap</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3 -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">Legal</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-decoration-none text-muted">Legal & Policies</a></li>
+          <li><a href="#" class="text-decoration-none text-muted">Meesho Tech Blog</a></li>
+          <li><a href="#" class="text-decoration-none text-muted">Notices & Returns</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 4 -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">Reach Out to Us</h6>
+        <a href="#"><i class="fab fa-facebook fa-lg me-3 text-dark"><img src = "assets/fb-logo.webp"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-lg me-3 text-dark"><img src = "assets/insta-logo.webp"></i></a>
+        <a href="#"><i class="fab fa-linkedin fa-lg me-3 text-dark"><img src = "assets/youtube-logo.webp"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-lg text-dark"><img src = "assets/linked-in-logo.webp"></i></a>
+        
+      </div>
+
+      <!-- Column 5 -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">Contact Us</h6>
+        <p class="text-muted small">
+          Meesho Inc.<br>
+          CIN: U62099KA2022PTC159856<br>
+          3rd Floor, Wing-E, Helios Business Park<br>
+          Kadubeesanahalli, Bengaluru<br>
+          Karnataka, India – 560103<br>
+          Email: query@meesho.com
+        </p>
+      </div>
+
+    </div>
+  </div>
+</footer>
+<!-- Bootstrap JS CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+    
+</body>
+</html>
+

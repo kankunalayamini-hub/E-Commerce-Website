@@ -1,0 +1,185 @@
+body {
+      font-family: 'Poppins', sans-serif;
+    }
+.meeshologo{
+  height:40px;
+}
+/* Hero section */
+.hero {
+      height: 90vh;
+      background: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url("assets/investor_1.png") center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+
+    .hero p {
+      font-size: 1rem;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: #ffffff;
+      padding:20px;
+    }
+
+    .navbar a {
+      color: #000 !important;
+      font-weight: 500;
+    }
+
+    .nav-link.active {
+      color: orange !important;
+    }
+    .meesho-section {
+  padding: 80px 0;
+  background-color: #f6f7f9;
+}
+
+.meesho-section h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.meesho-section p {
+  margin-top: 15px;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+.section-img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.meesho-section .img-fluid {
+  max-width: 100%;
+  height: 50vh;
+}
+/* Video Section */
+.video-section {
+  padding: 80px 0;
+  background-color: #f6f7f9;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.video-card {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 350px;
+}
+
+.video-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 30px;
+}
+
+.play-btn {
+  width: 50px;
+  height: 50px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.overlay p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+/* Footer */
+.site-footer {
+  background-color: #111;
+  color: #aaa;
+  padding: 60px 0;
+}
+
+.footer-logo .logo {
+  background-color: #ff7a00;
+  color: #000;
+  font-weight: 700;
+  font-size: 28px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.copyright {
+  margin-top: 15px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.footer-links li:hover {
+  color: white;
+}
+
+.social-icons span {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #555;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 34px;
+  margin-left: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.store-buttons img {
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
